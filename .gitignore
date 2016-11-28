@@ -1,3 +1,2 @@
-# Ignore compiled versions of the script.
-*.exe
+# IDE files.
 .idea/
