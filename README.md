@@ -13,7 +13,7 @@ There are two ways to install and set this up to boot with windows. Once running
 
 **Simple:**
 
-* Download [Double context fix.exe](Double%20context%20fix.exe) to your computer.
+* Download [Double context fix.exe](https://github.com/patricknelson/autohotkey/raw/master/Double%20context%20fix.exe) to your computer.
 * Double click the `Double context fix.exe` file downloaded above to run the fix.
 
 **From Source:**
@@ -21,7 +21,7 @@ There are two ways to install and set this up to boot with windows. Once running
 If you prefer to be safer and also have the ability to tinker with the code, you can also run from source. This only requires that you already have [AutoHotkey](http://www.autohotkey.com/) installed. 
 
 * Download and install AutoHotkey from [http://www.autohotkey.com/](http://www.autohotkey.com/).
-* Download [Double context fix.ahk](Double%20context%20fix.ahk) to your computer.
+* Right click here: [Double context fix.ahk](https://raw.githubusercontent.com/patricknelson/autohotkey/master/Double%20Context%20Fix.ahk) and select "Save as..." to download to your computer.
 * Double click the `Double context fix.ahk` file downloaded above to run the fix. 
 
 **Run at startup:**
