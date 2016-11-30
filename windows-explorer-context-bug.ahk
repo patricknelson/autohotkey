@@ -8,14 +8,12 @@
 ; pop-up menu.
 sleep 1
 
+
 ; Now, new window will have focus BEFORE button is released...
 if WinActive("ahk_class CabinetWClass") {
 	; Check if clicked within range of title bar, gather stats on mouse position...
 	CoordMode, Mouse, Window
 	MouseGetPos, ClickX, ClickY, WindowUnderMouseID
-	WinActivate, ahk_id %WindowUnderMouseID%
-	WinGetClass, class, A
-	WinGetPos, x, y, w, h, ahk_id %WindowUnderMouseID%
 	
 	if (ClickY < 30 and ClickY > 0 and ClickX > 0) {
 		; Wait first for right mouse button to be released...
